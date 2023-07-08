@@ -10,9 +10,10 @@
     position: relative;
     width: 1600px;
     height: 808px;
-    
+
 }
-.overlay{
+
+.overlay {
     width: 70%;
     height: 100%;
     display: flex;
@@ -20,15 +21,18 @@
     flex-direction: column;
     align-items: flex-end;
 }
-.header-title{  
+
+.header-title {
     margin-top: 230px;
-    flex-direction: column; 
-    text-align: right;  
+    flex-direction: column;
+    text-align: right;
 }
+
 .header-description {
     text-align: right;
     margin-top: 25px;
 }
+
 .btn-primary {
     border-radius: 5px;
     background: #F15B22;
@@ -37,6 +41,158 @@
     margin-top: 35px;
     border: none;
     color: #fff;
+}
+
+/* main styles */
+.failure {
+    display: flex;
+    gap: 200px;
+    margin: 150px;
 
 }
 
+.fail-image {
+    width: 451px;
+    height: 898px;
+}
+
+.fail {
+    margin-top: 200px;
+    text-align: left;
+}
+
+.main-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+}
+
+.main-description {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 25px;
+}
+
+.fails {
+    color: #444343;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.plan-title {
+    color: #151414;
+    font-family: Work Sans;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.plans {
+    padding: 10px 50px;
+}
+
+.plan-info {
+    color: #151414;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 30px;
+}
+
+.plans-container p {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+
+}
+.call{
+    margin-left: 65px;
+    margin-top: 20px;
+}
+
+.banner2nd {
+    background-repeat: no-repeat;
+    background-image: url('../images/watch.png');
+    width: 100vw;
+    height: 40vh;
+    margin-left: 130px;
+    
+}
+
+.mind {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 40px;
+    margin-left: 65px;
+    margin-top: 65px;
+}
+
+/* footer style */
+footer {
+    display: flex;
+    gap: 100px;
+    background-color: #151414;
+    color: white;
+    padding: 130px;
+    margin-top: 130px;
+}
+
+.footer-title {
+    font-family: Work Sans;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.footer-description {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 16px;
+    width: 485px;
+    margin-top: 20px;
+
+}
+
+.icon {
+    display: flex;
+    margin: 20px;
+    gap: 20px;
+    margin-left: 0px;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-subs {
+    border-radius: 8px;
+    background: #FFF;
+    width: 170.106px;
+    height: 64px;
+    margin-top: 20px;
+    color: #F15B22;
+    font-family: Inter;
+    font-size: 20px;
+    border: none;
+}
+
+.email {
+    background: var(--dark-01, #151414);
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
